@@ -20,10 +20,14 @@
     "@angular/platform-browser": "~12.1.1",
     "@angular/platform-browser-dynamic": "~12.1.1",
     "@angular/router": "~12.1.1",
+    "@capacitor/camera": "^1.0.3",
     "@capacitor/core": "3.1.2",
     "@ionic/angular": "^5.5.2",
+    "@ionic/pwa-elements": "^3.0.2",
+    "aws-sdk": "^2.966.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
+    "util": "^0.12.4",
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
@@ -40,7 +44,7 @@
     "@ionic/angular-toolkit": "^4.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
+    "@types/node": "^12.20.19",
     "@typescript-eslint/eslint-plugin": "4.16.1",
     "@typescript-eslint/parser": "4.16.1",
     "eslint": "^7.6.0",
