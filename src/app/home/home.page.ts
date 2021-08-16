@@ -47,5 +47,4 @@ export class HomePage {
     const imageFile = new File([imageBlob], imageName, { type: 'image/png' });
     this.uploadService.uploadFile(imageFile);
   }
-
 }
