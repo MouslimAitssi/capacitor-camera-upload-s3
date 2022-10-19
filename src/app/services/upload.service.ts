@@ -24,8 +24,8 @@ export class UploadService {
       },
       service: new S3(
         {
-          accessKeyId: 'AKIA2BFSFRXCD5T3LHS6',
-          secretAccessKey: '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'
+          accessKeyId: ${ACCESS_KEY_ID},
+          secretAccessKey: ${SECRET_ACCESS_KEY}
         }
       )
     }).on('httpUploadProgress', (progress) => {
